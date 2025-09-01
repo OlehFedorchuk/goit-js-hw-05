@@ -39,9 +39,6 @@ const getUsersWithFriend = (users, friendName) => {
 
 
 
-
-
-
 console.log(getUsersWithFriend(allUsers, "Briana Decker"));
 // [
 //   {
