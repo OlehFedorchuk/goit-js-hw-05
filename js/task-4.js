@@ -38,14 +38,10 @@ const clients = [
 ];
 
 
+const getTotalBalanceByGender = (users, gender) => {
+    return users.filter(user => user.gender === gender).reduce((accum, user) => {
+        return accum + user.balance},0);
 
-const getTotalBalanceByGender = (users, gender) =>{
-    return users.reduce((accum, user) => {
-        if (user.gender === gender){
-            return accum + user.balance;
-        }
-        return accum;
-    }, 0);
 
 
 }
